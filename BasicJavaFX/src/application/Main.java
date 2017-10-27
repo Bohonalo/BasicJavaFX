@@ -41,8 +41,8 @@ public class Main extends Application {
                 "../view/forest.fxml"
             )
         );
-    	loader.setController(new SetBlur());
-        mypane = (Pane) loader.load();
+    	//loader.setController(new SetBlur());
+        mypane = (AnchorPane) loader.load();
 
         /**
          * titula el stage y añade la escena al stage
@@ -60,12 +60,12 @@ public class Main extends Application {
     	@FXML
         private ImageView imageView;       
 
-/**
- * la etiqueta FXML permite acceder al componente imageView ya creado en fxml
- */
+		/**
+		 * la etiqueta FXML permite acceder al componente imageView ya creado en fxml
+		 */
     	@FXML
         public void initialize() {           
-                 imageView.setEffect(new GaussianBlur(10));
+                 imageView.setEffect(new GaussianBlur(6));
         }
     	
     }
