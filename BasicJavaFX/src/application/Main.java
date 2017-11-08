@@ -23,7 +23,7 @@ import java.io.IOException;
 public class Main extends Application {
 
 	private Pane mypane;
-	
+	//pepe
 	/**
 	 * modifica el método start de la clase principal
 	 */
