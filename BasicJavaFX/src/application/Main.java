@@ -22,7 +22,7 @@ import java.io.IOException;
 
 public class Main extends Application {
 	
-	//prueba
+	//prueba1
 
 	private Pane mypane;
 	
